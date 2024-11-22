@@ -1,8 +1,3 @@
-INSERT INTO User (user_id, username, password, email, shipping_address, billing_address, phone_number) VALUES (1, 'User1', 'password1', 'user1@example.com', '123 Address 1', '123 Address 1', '1234500001');
-INSERT INTO User (user_id, username, password, email, shipping_address, billing_address, phone_number) VALUES (2, 'User2', 'password2', 'user2@example.com', '123 Address 2', '123 Address 2', '1234500002');
-INSERT INTO User (user_id, username, password, email, shipping_address, billing_address, phone_number) VALUES (3, 'User3', 'password3', 'user3@example.com', '123 Address 3', '123 Address 3', '1234500003');
-INSERT INTO User (user_id, username, password, email, shipping_address, billing_address, phone_number) VALUES (4, 'User4', 'password4', 'user4@example.com', '123 Address 4', '123 Address 4', '1234500004');
-INSERT INTO User (user_id, username, password, email, shipping_address, billing_address, phone_number) VALUES (5, 'User5', 'password5', 'user5@example.com', '123 Address 5', '123 Address 5', '1234500005');
 INSERT INTO User (user_id, username, password, email, shipping_address, billing_address, phone_number) VALUES (6, 'User6', 'password6', 'user6@example.com', '123 Address 6', '123 Address 6', '1234500006');
 INSERT INTO User (user_id, username, password, email, shipping_address, billing_address, phone_number) VALUES (7, 'User7', 'password7', 'user7@example.com', '123 Address 7', '123 Address 7', '1234500007');
 INSERT INTO User (user_id, username, password, email, shipping_address, billing_address, phone_number) VALUES (8, 'User8', 'password8', 'user8@example.com', '123 Address 8', '123 Address 8', '1234500008');

@@ -35,16 +35,18 @@ CREATE TABLE Review (
     review_description TEXT NOT NULL
 );
 
--- Order Table
+-- Updated Order Table
 CREATE TABLE Orders (
     order_id INT PRIMARY KEY,
+    user_id INT NOT NULL, 
     order_date DATE NOT NULL,
     total_amount DECIMAL(10, 2) NOT NULL,
     order_status VARCHAR(50),
     shipping_address VARCHAR(255),
     billing_address VARCHAR(255),
     review_id INT,
-    FOREIGN KEY (review_id) REFERENCES Review(review_id)
+    FOREIGN KEY (review_id) REFERENCES Review(review_id),
+    FOREIGN KEY (user_id) REFERENCES User(user_id)
 );
 
 
